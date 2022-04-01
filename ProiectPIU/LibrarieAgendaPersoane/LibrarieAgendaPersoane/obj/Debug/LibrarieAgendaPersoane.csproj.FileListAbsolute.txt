@@ -1,0 +1,7 @@
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\bin\Debug\LibrarieAgendaPersoane.exe.config
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\bin\Debug\LibrarieAgendaPersoane.exe
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\bin\Debug\LibrarieAgendaPersoane.pdb
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\obj\Debug\LibrarieAgendaPersoane.csproj.AssemblyReference.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\obj\Debug\LibrarieAgendaPersoane.csproj.CoreCompileInputs.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\obj\Debug\LibrarieAgendaPersoane.exe
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\LibrarieAgendaPersoane\obj\Debug\LibrarieAgendaPersoane.pdb

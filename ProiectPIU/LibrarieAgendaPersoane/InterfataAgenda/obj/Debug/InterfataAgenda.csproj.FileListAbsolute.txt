@@ -1,0 +1,9 @@
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\bin\Debug\InterfataAgenda.exe.config
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\bin\Debug\InterfataAgenda.exe
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\bin\Debug\InterfataAgenda.pdb
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.csproj.AssemblyReference.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.Properties.Resources.resources
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.csproj.GenerateResource.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.csproj.CoreCompileInputs.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.exe
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\InterfataAgenda\obj\Debug\InterfataAgenda.pdb

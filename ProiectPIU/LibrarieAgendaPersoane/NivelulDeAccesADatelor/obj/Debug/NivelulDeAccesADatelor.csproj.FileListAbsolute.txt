@@ -1,0 +1,2 @@
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\NivelulDeAccesADatelor\obj\Debug\NivelulDeAccesADatelor.csproj.AssemblyReference.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\NivelulDeAccesADatelor\obj\Debug\NivelulDeAccesADatelor.csproj.CoreCompileInputs.cache

@@ -1,0 +1,2 @@
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\AfisareConsola\obj\Debug\AfisareConsola.csproj.AssemblyReference.cache
+D:\Facultate\ProiectPIU\LibrarieAgendaPersoane\AfisareConsola\obj\Debug\AfisareConsola.csproj.CoreCompileInputs.cache
