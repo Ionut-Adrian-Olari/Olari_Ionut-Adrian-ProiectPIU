@@ -1,18 +1,17 @@
-﻿using LibrarieAgendaPersoane;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AfisareConsola
+namespace LibrarieAgendaPersoane
 {
     class Program
     {
-      /*  static void Main(string[] args)
+        static void Main(string[] args)
         {
 
-            Agenda Agenda = new Agenda();
+          /*  Agenda Agenda = new Agenda();
             int i;
             int nrAgenda;
 
@@ -28,7 +27,7 @@ namespace AfisareConsola
                 Console.WriteLine("Alegeti o optiune");
 
                 optiune = Console.ReadLine();
-      
+
                 switch (optiune.ToUpper())
                 {
                     case "A":
@@ -36,8 +35,8 @@ namespace AfisareConsola
                         break;
                     case "B":
                         Agenda a = Citiretastatura();
-                       // Agenda[nrAgenda] = a;
-                        //nrAgenda++;
+                       //  Agenda[nrAgenda] = a;
+                       // nrAgenda++;
                         break;
                     case "C":
                         break;
@@ -50,14 +49,43 @@ namespace AfisareConsola
                         break;
 
                 }
-            } while (optiune.ToUpper() != "X");
+            } while (optiune.ToUpper() != "X"); */
+           
+
+
+
+            bool gasit;
+            for (int i = 65; i < 91; i++)
+            {
+                gasit = false;
+
+                char a, b;
+                for (int j = 0; j < args.Length; j++)
+                {
+                    b = Convert.ToChar(i);
+                    a = args[j].First();
+                    //Console.WriteLine("{0},{1}", a, b);
+                    if (a == b || a == b + 32)
+                    {
+                        Console.Write(args[j] + " ");
+                        gasit = true;
+                    }
+
+                }
+                if (gasit == true)
+                {
+                    Console.WriteLine();
+                }
+            }
+
             Console.ReadKey();
         }
         public static void AfisareAgenda(Agenda Agenda)
         {
-            Console.WriteLine("----------AfisareAgenda-----");
-            string info = String.Format("{0,-12}{1,8}{2,20}{3,21}{4,29}{5,15}{6,26}",Agenda.Nume,Agenda.Prenume,Agenda.Data_Nasterii.ToString("dd/MM/yyyy"),Agenda.NR_Telefon,Agenda.Adresa_e_mail,Agenda.grup,Agenda.provenienta);
+            Console.WriteLine("\n----------AfisareAgenda-----");
+            string info = string.Format("{0} {1} {2} {3} {4} {5}", Agenda.Nume, Agenda.Prenume, Agenda.Data_Nasterii, Agenda.NR_Telefon, Agenda.Adresa_e_mail);
 
+            Console.WriteLine(info);
         }
 
         public static Agenda Citiretastatura()
@@ -77,7 +105,7 @@ namespace AfisareConsola
             Console.WriteLine("Introduceti adresa de email:");
             string adresaemail = Console.ReadLine();
 
-            Console.WriteLine("Alege grupul:");
+          /*  Console.WriteLine("Alege grupul:");
             Console.WriteLine("0 - Prieteni \n " +
                 "1 - Serviciu \n" +
                 "2 - Familie \n" +
@@ -92,20 +120,16 @@ namespace AfisareConsola
                 "5 - Anglia \n");
             int optiune = Convert.ToInt32(Console.ReadLine());
             Grup program = (Grup)optiune;
-            Provenienta programM = (Provenienta)optiune;
+            Provenienta programM = (Provenienta)optiune; */
 
-            Console.WriteLine("Introduceti persoana cu tot cu date:");
-            string sir = Console.ReadLine();
+           // Console.WriteLine("Introduceti persoana cu tot cu date:");
+          //  string sir = Console.ReadLine();
 
-            // Agenda a = new Agenda(Nume, Prenume, datanasterii, nr_telefon, adresaemail, program, programM);
-            Agenda a = new Agenda(sir);
+            Agenda a = new Agenda(Nume, Prenume, datanasterii, nr_telefon, adresaemail);
+           // Agenda a = new Agenda(sir);
 
             return a;
         }
 
-    } /*
-      }
-
-
-  
-
+    }
+}

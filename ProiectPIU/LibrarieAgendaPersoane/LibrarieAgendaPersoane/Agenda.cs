@@ -24,6 +24,10 @@ namespace LibrarieAgendaPersoane
         public string NR_Telefon;
         public string Adresa_e_mail;
         public DateTime Data_Nasterii;
+        private string datanasterii;
+        private string adresaemail;
+        private Grup program;
+        private Provenienta programM;
 
 
         //proprietati auto-implementate
@@ -70,16 +74,16 @@ namespace LibrarieAgendaPersoane
 
         //Constructor cu parametri
 
-        public Agenda(string _nume, string _prenume, DateTime _data_nastere, string _nr_telefon, string _adresa_e_mail, Grup _grup, Provenienta _provenienta)
+        public Agenda(string _nume, string _prenume, DateTime _data_nastere, string _nr_telefon, string _adresa_e_mail) //Grup _grup, Provenienta _provenienta
         {
             this.Nume = _nume;
             this.Prenume = _prenume;
             this.Adresa_e_mail = _adresa_e_mail;
             this.NR_Telefon = _nr_telefon;
             this.Data_Nasterii = _data_nastere;
-            grup = _grup;
-            provenienta = _provenienta;
-            Actualizare_Data = DateTime.Now;
+          //  grup = _grup;
+           // provenienta = _provenienta;
+           // Actualizare_Data = DateTime.Now;
 
         }
 
@@ -93,11 +97,22 @@ namespace LibrarieAgendaPersoane
             this.Data_Nasterii = Convert.ToDateTime(buf[2]);
             this.NR_Telefon = buf[3];
             this.Adresa_e_mail = buf[4];
-            grup = (Grup)Enum.Parse(typeof(Grup), buf[5]);
-            provenienta = (Provenienta)Enum.Parse(typeof(Provenienta), buf[6]);
-            Actualizare_Data = DateTime.Parse(buf[7]);
+          //  grup = (Grup)Enum.Parse(typeof(Grup), buf[5]);
+          //  provenienta = (Provenienta)Enum.Parse(typeof(Provenienta), buf[6]);
+           // Actualizare_Data = DateTime.Parse(buf[7]);
 
 
+        }
+
+        public Agenda(string nume, string prenume, string datanasterii, string nr_telefon, string adresaemail) // Grup program, Provenienta programM
+        {
+            this.Nume = nume;
+             this.Prenume = prenume;
+            this.datanasterii = datanasterii;
+            this.NR_Telefon = nr_telefon;
+            this.adresaemail = adresaemail;
+          //  this.program = program;
+           // this.programM = programM;
         }
 
         //Data curenta

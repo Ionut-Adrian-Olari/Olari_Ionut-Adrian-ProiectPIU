@@ -45,10 +45,15 @@
   <ItemGroup>
     <Compile Include="Agenda.cs" />
     <Compile Include="Enum.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DateFisier.txt" />
+    <Content Include="DateFisierOut.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

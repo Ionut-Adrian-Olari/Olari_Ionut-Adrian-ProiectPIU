@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NivelulDeAccesADatelor", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfataAgenda", "InterfataAgenda\InterfataAgenda.csproj", "{A13B4F51-BF71-4B87-83A7-A1CD6AABA42A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfisareConsola", "AfisareConsola\AfisareConsola.csproj", "{60F23F44-D55D-487C-96D7-EC5A664EA5C0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{A13B4F51-BF71-4B87-83A7-A1CD6AABA42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13B4F51-BF71-4B87-83A7-A1CD6AABA42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13B4F51-BF71-4B87-83A7-A1CD6AABA42A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60F23F44-D55D-487C-96D7-EC5A664EA5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60F23F44-D55D-487C-96D7-EC5A664EA5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60F23F44-D55D-487C-96D7-EC5A664EA5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60F23F44-D55D-487C-96D7-EC5A664EA5C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
